@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./src/fav.svg" type="image/x-icon">
+    <title>Amorcitos</title>
+</head>
+
+<body>
+    <div id="pink" class="circle"></div>
+    <div id="green" class="circle"></div>
+    <div id="blue" class="circle"></div>
+    <div class="container-audio">
+        <audio id="audio" src="./src/audio.mpeg"></audio>
+        <canvas id="canva"></canvas>
+        <h1>Con mucho amor</h1>
+        <p>Para mi amorcita</p>
+        <div id="barra">
+            <div id="progreso"></div>
+        </div>
+        <button id="btn-play" name="play / pause">
+            <svg id="icon-play" xmlns="http://www.w3.org/2000/svg" width="48" height="48" class="bi bi-play-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+            </svg>
+            <svg id="icon-pause" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                class="bi bi-pause-fill" viewBox="0 0 16 16">
+                <path
+                    d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z" />
+            </svg>
+
+        </button>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
